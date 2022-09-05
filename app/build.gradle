@@ -9,6 +9,10 @@ android {
         archivesBaseName = "$applicationId"
 
         minSdkVersion 24
+
+        ndk{
+            abiFilters "armeabi-v7a", "x86", "x86_64" // Add only required cpu architectures here
+        }
     }
 
     externalNativeBuild {
