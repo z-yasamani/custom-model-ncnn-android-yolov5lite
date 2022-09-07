@@ -24,14 +24,13 @@ https://github.com/nihui/opencv-mobile
 * Download opencv-mobile-XYZ-android.zip
 * Extract opencv-mobile-XYZ-android.zip into **app/src/main/jni** and change the **OpenCV_DIR** path to yours in **app/src/main/jni/CMakeLists.txt**
 
-### step3
-```
-cd ncnn_Android/ncnn-android-yolov5/app/src/main/assets
-wget all the *.param and *.bin
-```
 
-### step4
+### step3
 * Open this project with Android Studio, build it and enjoy!
+
+Here is a full description of training custom model and building it`s android app.
+
+https://medium.com/@zeynabyasamani/how-to-train-customyolov5-lite-model-and-deploy-it-on-android-mobile-21cb8a441769
 
 ## some notes
 * Android ndk camera is used for best efficiency
